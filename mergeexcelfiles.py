@@ -22,4 +22,4 @@ for file in sorted(file_list):
 excel_merged = pd.concat(excel_list, ignore_index=True)
  
 # 6. Single DF is saved to the path in Excel format, without index column
-excel_merged.to_excel(path + 'excel_files_combines.xlsx', index=False)
+excel_merged.to_excel(path + 'excel_files_combined.xlsx', index=False)
